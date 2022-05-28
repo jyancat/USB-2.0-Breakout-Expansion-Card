@@ -1,0 +1,4 @@
+Item #,Ref Des,Quantity,Manufacturer,Mfg Part #,Designation,Package,Type,Notes
+1,J1,1,Molex,171857-0004,Conn_01x04,PinHeader_1x04_P2.54mm_Horizontal,THT,
+2,P1,1,Molex,105444-0001,USB_C_Plug_USB2.0,USB_C_Plug_Molex_105444,SMD,Please solder both sides
+3,R2,1,YAGEO,RC0805FR-075K1L,5.1k Pull-down,0805R,SMD,

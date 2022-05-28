@@ -1,0 +1,3 @@
+Designator,Footprint,Mid X,Mid Y,TB,Rot,Val
+P1,USB_C_Plug_Molex_105444,203,-61.5,T&B,0,USB_C_Plug_USB2.0
+R2,0805R,200.5,-65,T,180,5.1k Pull-down

@@ -65,24 +65,10 @@ F 3 "~" H 4050 1800 50  0001 C CNN
 	1    4050 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_US R1
-U 1 1 61D9094D
-P 4050 1300
-F 0 "R1" H 4118 1346 50  0000 L CNN
-F 1 "5.1k Pull-up" H 4118 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4090 1290 50  0001 C CNN
-F 3 "~" H 4050 1300 50  0001 C CNN
-	1    4050 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 1550 4050 1550
 Wire Wire Line
 	4050 1550 4050 1650
-Wire Wire Line
-	4050 1550 4050 1450
-Connection ~ 4050 1550
 $Comp
 L power:Earth #PWR0102
 U 1 1 61D90ECE
@@ -94,48 +80,42 @@ F 3 "~" H 4050 1950 50  0001 C CNN
 	1    4050 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 1150 0    50   Input ~ 0
-VBUS
-$Comp
-L Connector:Conn_01x06_Female J1
-U 1 1 61D92D08
-P 5450 2450
-F 0 "J1" H 5478 2426 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 5478 2335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5450 2450 50  0001 C CNN
-F 3 "~" H 5450 2450 50  0001 C CNN
-	1    5450 2450
-	1    0    0    -1  
-$EndComp
-Text GLabel 5250 2250 0    50   Input ~ 0
-VCONN
 Text GLabel 3100 2700 2    50   Input ~ 0
 D-
 Text GLabel 3100 2900 2    50   Input ~ 0
 D+
 Text GLabel 3100 2500 2    50   Input ~ 0
 VCONN
-Text GLabel 5250 2350 0    50   Input ~ 0
+Text GLabel 5650 2950 0    50   Input ~ 0
 D-
-Text GLabel 5250 2450 0    50   Input ~ 0
+Text GLabel 5650 3050 0    50   Input ~ 0
 D+
-Text GLabel 5250 2550 0    50   Input ~ 0
-CC
-Text GLabel 5250 2650 0    50   Input ~ 0
+Text GLabel 5650 2850 0    50   Input ~ 0
 VBUS
 $Comp
 L power:Earth #PWR0103
 U 1 1 61D93991
-P 5050 2850
-F 0 "#PWR0103" H 5050 2600 50  0001 C CNN
-F 1 "Earth" H 5050 2700 50  0001 C CNN
-F 2 "" H 5050 2850 50  0001 C CNN
-F 3 "~" H 5050 2850 50  0001 C CNN
-	1    5050 2850
+P 5450 3250
+F 0 "#PWR0103" H 5450 3000 50  0001 C CNN
+F 1 "Earth" H 5450 3100 50  0001 C CNN
+F 2 "" H 5450 3250 50  0001 C CNN
+F 3 "~" H 5450 3250 50  0001 C CNN
+	1    5450 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 2750 5050 2750
+	5650 3150 5450 3150
 Wire Wire Line
-	5050 2750 5050 2850
+	5450 3150 5450 3250
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 625A3B3A
+P 5850 2950
+F 0 "J1" H 5930 2942 50  0000 L CNN
+F 1 "Conn_01x04" H 5930 2851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 5850 2950 50  0001 C CNN
+F 3 "~" H 5850 2950 50  0001 C CNN
+	1    5850 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Josh\\Documents\\ExpansionCards-main\\Design Files\\Complete Design Files\\USB 2.0 Breakout\\USB 2.0 Breakout.sch")
-    (date "16/04/2022 10:36:36 AM")
+    (source "C:\\Users\\Josh\\Documents\\ExpansionCards-main\\Design Files\\Complete Design Files\\USB 2.0 Breakout\\Hardware\\USB 2.0 Breakout.sch")
+    (date "28/05/2022 1:17:01 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,14 +17,14 @@
   (components
     (comp (ref P1)
       (value USB_C_Plug_USB2.0)
-      (footprint "SnapEDA Library:GCT_USB4155-03-C_REVA")
+      (footprint Expansion_Card:USB_C_Plug_Molex_105444)
       (datasheet https://www.usb.org/sites/default/files/documents/usb_type-c.zip)
       (libsource (lib Connector) (part USB_C_Plug_USB2.0) (description "USB 2.0-only Type-C Plug connector"))
       (sheetpath (names /) (tstamps /))
       (tstamp 61D8EF08))
     (comp (ref R2)
       (value "5.1k Pull-down")
-      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0805_2012Metric)
       (datasheet ~)
       (libsource (lib Device) (part R_US) (description "Resistor, US symbol"))
       (sheetpath (names /) (tstamps /))

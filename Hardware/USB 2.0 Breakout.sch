@@ -19,7 +19,7 @@ U 1 1 61D8EF08
 P 2500 2800
 F 0 "P1" H 2607 3667 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 2607 3576 50  0000 C CNN
-F 2 "SnapEDA Library:GCT_USB4155-03-C_REVA" H 2650 2800 50  0001 C CNN
+F 2 "Expansion_Card:USB_C_Plug_Molex_105444" H 2650 2800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2650 2800 50  0001 C CNN
 	1    2500 2800
 	1    0    0    -1  
@@ -60,7 +60,7 @@ U 1 1 61D9034B
 P 4050 1800
 F 0 "R2" H 4118 1846 50  0000 L CNN
 F 1 "5.1k Pull-down" H 4118 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4090 1790 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4090 1790 50  0001 C CNN
 F 3 "~" H 4050 1800 50  0001 C CNN
 	1    4050 1800
 	1    0    0    -1  
